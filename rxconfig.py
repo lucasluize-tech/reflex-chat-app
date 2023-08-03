@@ -8,7 +8,7 @@ class ChatappConfig(rx.Config):
 
 config = ChatappConfig(
     app_name="chat_app",
-    db_url="postgresql://lucasluize@localhost:5432/relfex-chat-app",
+    api_url="http://localhost:8000",
     env=rx.Env.DEV,
     env_path=os.path.join(os.getcwd(), ".env"),
     tailwind={
